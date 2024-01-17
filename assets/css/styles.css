@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0px;
+  background: linear-gradient(to top, #0b5d1e, #0a5518, #084c12, #053b06);
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+  font-family: fantasy;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.carta {
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+  height: 240px;
+}
